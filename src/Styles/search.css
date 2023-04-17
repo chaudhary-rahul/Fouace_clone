@@ -1,0 +1,10 @@
+.searchbox{
+   width: 120px;
+}
+.searchbox input{
+    width: 70px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+}

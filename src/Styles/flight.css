@@ -1,0 +1,1027 @@
+body {
+    overflow-x: hidden;
+}
+
+.flight-container {
+    margin-top: 14.5rem;
+    height: 960px;
+}
+
+#carouselExampleAutoplaying {
+    position: absolute;
+    width: 100%;
+
+}
+
+.flight-options {
+    position: absolute;
+    z-index: 10;
+    margin-top: 8rem;
+    margin-left: 34rem;
+    width: 33%;
+}
+
+.formnav {
+    margin: 0%;
+    
+    height: 13vh;
+    padding: 0%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 4px rgb(28, 17, 238));
+    /* box-shadow: 2px 2px 2px 3px rgb(235, 234, 235); */
+}
+
+.choose {
+    list-style: none;
+    display: inline-block;
+    /* padding: 20px; */
+    margin-left: 40px;
+
+}
+
+.choose .flgt {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 3px solid purple;
+}
+
+.formnav li:hover a,
+span {
+    border-bottom-color: rgb(122, 66, 123);
+    color: rgb(122, 66, 123);
+    
+}
+
+.formnav>#Hotel span {
+    background-position: 0px -42px;
+    
+    /* -21 -179 89 221 269*/
+}
+
+.formnav>#Hotel span:hover {
+    background-position: 0px -221px;
+}
+
+.formnav>#Bus span {
+    background-position: 0px -133px;
+    /* -21 -179 89 221 269*/
+}
+
+.formnav>#Bus span:hover {
+    background-position: 0px -314px;
+}
+
+.formnav>#Holiday span {
+    background-position: 0px -89px;
+    /* -21 -179 89 221 269*/
+}
+
+.formnav>#Holiday span:hover {
+    background-position: 0px -269px;
+}
+
+.formnav>#Flight span {
+    background-position: 0px -0px;
+    /* -21 -179 89 221 269*/
+}
+
+.formnav>#Flight span:hover {
+    background-position: 0px -179px;
+}
+
+.formnav li span {
+    background-image: url("../Images/frm_sprt.png");
+    background-color: initial;
+}
+
+.formnav li span {
+    display: block;
+    width: 50px;
+    transition: 0.5s;
+    height: 40px;
+    margin: 0 auto;
+    background: url("../Images/frm_sprt.png") no-repeat;
+}
+
+.flight-form {
+    position: absolute;
+    width: 80%;
+    height: 30vh;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px 6px #fff;
+    border-radius: 5px;
+    margin-top: 12rem;
+    margin-left: 10rem;
+    /* filter: drop-shadow(4px 4px 4px rgb(28, 17, 238)); */
+}
+
+.form {
+    color: black;
+    float: left;
+    margin-top: 1rem;
+}
+
+.form label {
+    height: 20px;
+}
+
+.form p {
+    padding-left: 10px;
+    font-size: 19px;
+    display: inline-block;
+}
+
+.form #radio1 {
+    color: black;
+    width: 20px;
+    height: 20px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.form #radio1:hover {
+    background-color: blue;
+}
+
+.form2 {
+    margin-top: 9rem;
+}
+
+.form2m {
+    margin-top: 10.5rem;
+}
+
+.form2 .formdata1 {
+    float: left;
+    margin-left: 3rem;
+
+}
+
+.formdata1 p {
+    margin: 0%;
+    display: block;
+   
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata1 #onewayin {
+    margin: 0%;
+    margin-left: .4rem;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.formdata1 #onewayin:hover {
+    outline: none;
+    /* border: 1px solid blue; */
+}
+
+.form2 .formdata2 {
+    float: left;
+    margin-left: 1em;
+
+}
+
+.formdata2 p {
+    margin: 0%;
+    margin-right: 1rem;
+    display: block;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata2 #onewayin2 {
+    margin: 0%;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: .5rem;
+    color: black;
+    width: 100px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.formdata2 #onewayin2:hover {
+    outline: none;
+    /* border: 1px solid blue; */
+}
+
+.form2 .formdata3 {
+    float: left;
+    margin-left: 7rem;
+
+}
+
+.formdata3 p {
+    margin: 0%;
+    /* float: left; */
+    display: block;
+    
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata3 h4 {
+    margin: 0%;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form2 .formdata4 {
+    float: left;
+    margin-left: 4em;
+    opacity: 0.3;
+
+}
+.form2 .returnformdat4{
+    float: left;
+    margin-left: 4em;
+}
+.returnformdat4  p {
+    margin: 0%;
+    /* float: left; */
+    display: block;
+   
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.returnformdat4 #input4 {
+    margin: 0%;
+    float: left;
+    font-size: 17px;
+   
+}
+.formdata4  p {
+    margin: 0%;
+    /* float: left; */
+    display: block;
+   
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata4 h4 {
+    margin: 0%;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form2 .formdata5 {
+    float: left;
+    margin-left: 4em;
+}
+
+.formdata5 p {
+    margin: 0%;
+   
+    /* float: left; */
+    display: block;
+    /* opacity: 0.6; */
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata5 input {
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: .5rem;
+    color: black;
+    width: 100px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.formdata6 p {
+    margin: 0%;
+    display: block;
+    /* opacity: 0.6; */
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata6 .select {
+    border: none;
+    margin-left: 1rem;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mybtnn {
+    position: absolute;
+    z-index: 10;
+    margin: 2rem 0 0 35rem;
+}
+
+.btn2{
+    width: 140px;
+    height: 50px;
+    background-image: -webkit-linear-gradient(125deg, rgb(121, 66, 126) 0%, rgb(71, 68, 144) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+}
+.btn2:hover {
+    background-color: #444;
+}
+.itag{
+    width: 50px;
+    height: 50px;
+}
+.itag {
+    color: green;
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 6rem;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.formdata2m{
+    margin-left: 5rem;
+}
+.formdata2m #input2 {
+    margin: 0%;
+    margin-left: 2.4rem;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    width: 100px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+.formdata1m #input1 {
+    margin: 0%;
+    margin-left: 2.4rem;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+.form2 .formdata4m{
+    float: left;
+    margin-left: 4em;
+}
+.formdata4m p {
+    margin: 0%;
+    /* float: left; */
+    display: block;
+    /* opacity: 0.6; */
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formdata4m h4 {
+    margin: 0%;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+.formdatair4{
+    float: left;
+    margin-left: 4rem;
+}
+.formdatair4 p{
+    display: block;
+    margin: 0%;
+    margin-right: 1px;
+    font-size: 17px;
+    font-weight: 600;
+    /* opacity: 0.6; */
+}
+.formdatair4 .select {
+    border: none;
+    outline: none;
+    width: 100px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+.select2{
+    border: none;
+    outline: none;
+    width: 100px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+.img-container {
+    width: 90%;
+    position: relative;
+    margin-top: 33.9rem;
+    padding-left: 40px;
+}
+.img-container #myimg1 {
+    width: 650px;
+    height: 380px;
+    margin-left: 7rem;
+    display: inline-block;
+}
+.img-container #myimg2 {
+    width: 650px;
+    height: 380px;
+    padding-left: 40px;
+    display: inline-block;
+}
+.crsl {
+    position: relative;
+    min-height: 950px;
+}
+.mycrsl {
+    position: absolute;
+}
+.divm{
+    height: 3.6rem;
+}
+
+.divair{
+    height: 3.6rem;
+}
+
+@media screen and (max-width:768px) and (min-width:400px){
+    .flight-container {
+        width: 180%;
+    }
+    #carouselExampleAutoplaying{
+        width: 180%;
+
+    }
+    .crsl{
+        height: 390vh;
+    }
+    .flight-options{
+        width: 80%;
+        margin-left: 24rem;
+    }
+    .flight-form {
+        width: 160%;
+        margin-left: 0%;
+        height: 120vh;
+        margin-left: 5rem;
+    }
+    
+    .formnav{
+        height: 20vh;
+        width: 120%;
+    }
+    .flight-form .form{
+        margin-top: 40px;
+       
+    }
+    .form #radio1{
+        height: 30px;
+        width: 30px;
+    }
+    .form #radio1.airbtn{
+        margin-top: 20px;
+    }
+    .form p{
+        font-size: 30px;
+    }
+    .flight-form .form2 {
+        width: 100%;
+        margin-top: 12rem;
+    }
+    .form2 .itag {
+        margin-top: 3rem;
+        margin-left: 6rem;
+        font-size: 30px;
+        
+    }
+   
+    .formdata1,.formdata2,.formdata3,.formdata4,.formdata5,.formdata6,.returnformdat4,
+    .formdata1m,.formdata2m,.formdata4m,.formdatair4{
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .formdata1 p{
+        font-size: 30px;
+        margin-right: 14rem;
+    }
+    .formdata1 #onewayin{
+        font-size: 20px;
+        margin-left: 6rem;
+    }
+   .formdata2 p{
+    font-size: 30px;
+    margin-right: 14rem;
+   }
+   .formdata2 #onewayin2{
+    font-size: 20px;
+    margin-left: 8rem;
+   }
+   .form2 .formdata3 {
+
+      margin-left:4rem;
+   }
+   .formdata3 p{
+    margin-right: 19rem;
+    font-size: 30px;
+   }
+   .formdata3 #input3{
+    font-size: 20px;
+    margin-left: 5.5rem;
+    opacity: 0.66;
+   }
+   .form2 .formdata4 {
+    
+    margin-left:3rem;
+ }
+ .formdata4 p{
+  margin-right: 20rem;
+  font-size: 32px;
+ }
+ .formdata4 h4{
+  font-size: 20px;
+  margin-left: 6rem;
+  opacity: 0.66;
+ }
+ .form2 .formdata5 {
+    margin:  2rem 0 1rem ;
+    margin-left: -20px;
+  }
+  .formdata5 p{
+     width: 400px;
+ margin-left: 3.5rem;
+   font-size: 25px;
+  }
+  .formdata5 h4{
+   font-size: 23px;
+   font-weight: 400;
+   margin-left: 10rem;
+  }
+  .formdata6{
+     height: 100px;
+     width: 50%;
+ }
+ 
+ .formdata6 p{
+     font-size: 25px;
+     margin-right: 17rem;
+     margin-top: 3rem;
+  }
+  .formdata6 .select{
+     font-size: 25px;
+     width: 260px;
+     margin-right: 6rem;
+     margin-left: 20px;
+     opacity: 0.6;
+  }
+  .formdata6 .select option{
+     font-size: 20px;
+  }
+  .form2 .returnformdat4 {
+    margin-left: 2rem;
+ }
+ .returnformdat4 p{
+    font-size: 30px;
+    margin-right: 18rem;
+ }
+ .returnformdat4 h4{
+    font-size: 20px;
+    opacity: 0.6;
+    margin-left: 7rem;
+ }
+ .form2 .formdata1m {
+    
+    margin-left:1rem;
+ }
+ .formdata1m p{
+  margin-right: 19rem;
+  font-size: 30px;
+ }
+ .formdata1m #input1{
+    font-size: 28px;
+    margin-left: 7rem;
+    
+
+ }
+ .form2 .formdata2m {
+    
+    margin-left:1rem;
+ }
+ .formdata2m p{
+  margin-right: 15rem;
+  font-size: 30px;
+ }
+ .formdata2m #input2{
+    font-size: 28px;
+    margin-left: 7rem;
+ }
+ .divm {
+    height: 5.5rem;
+ }
+ .divm .formdata3 p{
+    width: 200px;
+    font-size: 30px;
+    margin-left: 2.7rem;
+ }
+ .divm .formdata3 #input3{
+    font-size: 25px;
+    margin-right: 17rem;
+ }
+
+ .form2 .formdata4m {
+    margin-left: 2.5rem;
+ }
+ .formdata4m p{
+ margin-left: 3rem;
+  width: 300px;
+  font-size: 32px;
+ }
+ .formdata4m h4{
+  font-size: 26px;
+  opacity: 0.66;
+  margin-left: 5rem;
+ }
+ .divm .formdata5 p{
+    width: 200px;
+    font-size: 27px;
+    margin-left: 4.6rem;
+ }
+ .divm .formdata5 .select{
+    font-size: 25px;
+    margin-right: 5rem;
+    /* margin-left: 3rem; */
+ }
+ .divm{
+    height: 6rem;
+ }
+ .formdatair4{
+    margin-left: 2rem;
+ }
+ .divair{
+    height: 6.5rem;
+ }
+ .divair .formdatair4{
+    margin-left: 4rem;
+ }
+ .divair .formdatair4 p{
+    width: 300px;
+    margin-left: 3rem;
+    font-size: 30px;
+ }
+ .formdatair4 .select{
+    font-size: 25px;
+    margin-right: 23rem;
+    opacity: 0.6;
+ }
+ .divair .formdata5 p{
+    font-size: 30px;
+    margin-left: 4rem;
+ }
+  .divair .formdata5 .select2{
+    font-size: 25px;
+    margin-right: 13rem;
+    opacity: 0.6;
+ }
+ 
+  .mybtnn .btn2{
+    width: 170px;
+    height: 70px;
+    font-size: 36px;
+    font-weight: 500;
+}
+ 
+    .mybtnn {
+        margin-left: 30rem;
+        margin-top: 28rem;
+    }
+
+    .img-container {
+        width: 100%;
+        padding: 0%;
+        margin-left: 1rem;
+        padding-top: 5rem;
+        margin-top: 60rem;
+    }
+
+    .img-container #myimg1 {
+        width: 970px;
+        height: 550px;
+        margin-left: 0%;
+    }
+
+    .img-container #myimg2 {
+        width: 970px;
+        height: 550px;
+        margin-top: 2rem;
+        margin-right: 40px;
+    }
+
+}
+
+
+
+@media only  screen and (max-width:400px) {
+    .flight-container{
+        width: 200%;
+    }
+    #carouselExampleAutoplaying{
+        width: 150%;
+    }
+    .flight-container .carousel-inner {
+        width: 140%;
+    }
+    .crsl{
+        height: 360vh;
+    }
+    .flight-container .flight-options {
+        width: 170%;
+        margin-left: 6rem;
+    }
+    .flight-options .formnav{
+        height: 20vh;
+    }
+    .flight-form {
+        width: 180%;
+        height: 150vh;
+        margin-left: 0%;
+        margin-left: 5rem;
+    }
+    .choose{
+        margin-left: 20px;
+    }
+    .choose .flgt{
+        font-size: 30px;
+    }
+    .flight-form .form{
+        margin-top: 40px;
+       
+    }
+    .form #radio1{
+        height: 30px;
+        width: 30px;
+    }
+    .form #radio1.airbtn{
+        margin-top: 20px;
+    }
+    .form p{
+        font-size: 30px;
+    }
+    .flight-form .form2 {
+        width: 100%;
+        margin-top: 15rem;
+    }
+    .form2 .itag {
+        margin-top: 3rem;
+        margin-left: 6rem;
+        font-size: 30px;
+        
+    }
+   
+    .formdata1,.formdata2,.formdata3,.formdata4,.formdata5,.formdata6,.returnformdat4,
+    .formdata1m,.formdata2m,.formdata4m,.formdatair4{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .formdata1 p{
+        font-size: 32px;
+        margin-right: 9rem;
+    }
+    .formdata1 #onewayin{
+        font-size: 27px;
+        width: 200px;
+    }
+   .formdata2 p{
+    font-size: 32px;
+    margin-right: 9rem;
+   }
+   .formdata2 #onewayin2{
+    font-size: 28px;
+    width: 200px;
+    margin-left: 2.5rem;
+   }
+   .form2 .formdata3 {
+    
+      margin-left:4rem;
+   }
+   .formdata3 p{
+    margin-right: 20rem;
+    font-size: 32px;
+   }
+   .formdata3 #input3{
+    font-size: 24px;
+    font-weight:700;
+    margin-right: 11rem;
+    outline: none;
+    opacity: 0.66;
+   }
+   .form2 .formdata4 {
+    
+    margin-left:4rem;
+ }
+ .formdata4 p{
+  margin-right: 20rem;
+  font-size: 32px;
+ }
+ .formdata4 h4{
+  font-size: 20px;
+  opacity: 0.66;
+ }
+ .form2 .returnformdat4 {
+    margin-left: 4rem;
+ }
+ .returnformdat4 p{
+    font-size: 32px;
+    margin-right: 16rem;
+ }
+ .returnformdat4 h4{
+    font-size: 20px;
+    opacity: 0.6;
+ }
+ .form2 .formdata5 {
+   margin:  2rem 0 1rem ;
+   margin-left: -20px;
+ }
+ .formdata5 p{
+    width: 400px;
+
+  font-size: 32px;
+ }
+ .formdata5 input{
+  font-size: 25px;
+  width: 200px;
+  font-weight: 700;
+  margin-right: .5rem;
+ }
+ .formdata6{
+    height: 100px;
+    width: 50%;
+}
+
+.formdata6 p{
+    font-size: 32px;
+    margin-right: 10rem;
+    margin-top: 3rem;
+ }
+ .formdata6 .select{
+    font-size: 25px;
+    width: 260px;
+    margin-right: .1rem;
+    margin-left: 30px;
+    opacity: 0.6;
+ }
+ .formdata6 .select option{
+    font-size: 20px;
+ }
+ .form2 .formdata1m {
+    
+    margin-left:5rem;
+ }
+ .formdata1m p{
+  margin-right: 19rem;
+  font-size: 32px;
+ }
+ .formdata1m #input1{
+    font-size: 28px;
+    margin: 0%;
+
+ }
+ .form2 .formdata2m {
+    
+    margin-left:5rem;
+ }
+ .formdata2m p{
+  margin-right: 19rem;
+  font-size: 32px;
+ }
+ .formdata2m #input2{
+    font-size: 28px;
+    margin: 0%;
+ }
+ .divm {
+    height: 5.5rem;
+ }
+ .divm .formdata3 p{
+    width: 200px;
+    margin-right: 1rem;
+ }
+ .divm .formdata3 #input3{
+    font-size: 28px;
+    margin-right: 6rem;
+ }
+
+ .form2 .formdata4m {
+    margin-left: 2.5rem;
+ }
+ .formdata4m p{
+  margin-right: 22rem;
+  width: 300px;
+  font-size: 32px;
+ }
+ .formdata4m h4{
+  font-size: 26px;
+  opacity: 0.66;
+  margin-left: 3rem;
+ }
+ 
+.flight-form .mybtnn{
+    margin: 0%;
+    position: relative;
+   margin-top: 38rem;
+}
+
+.divm .formdata5 p{
+    width: 200px;
+    margin-left: 2rem;
+ }
+ .divm .formdata5 .select{
+    font-size: 25px;
+    margin-left: 3rem;
+ }
+ .formdatair4{
+    margin-left: 2rem;
+ }
+ .divair{
+    height: 6rem;
+ }
+ .divair .formdatair4 p{
+    width: 300px;
+    font-size: 30px;
+ }
+ .formdatair4 .select{
+    font-size: 25px;
+    margin-right: 13rem;
+    opacity: 0.6;
+ }
+  .divair .formdata5 .select2{
+    font-size: 25px;
+    margin-right: 6rem;
+    opacity: 0.6;
+ }
+
+ 
+.mybtnn .btn2{
+    width: 170px;
+    height: 70px;
+    font-size: 36px;
+    font-weight: 500;
+}
+ 
+
+   
+
+    
+
+    .mybtn {
+        margin-left: 26rem;
+        margin-top: 1rem;
+    }
+
+    .img-container {
+        width: 100%;
+        padding: 0%;
+        margin-left: 1rem;
+        padding-top: 5rem;
+        margin-top: 75rem;
+    }
+
+    .img-container #myimg1 {
+        width: 670px;
+        height: 450px;
+        margin-left: 0%;
+    }
+
+    .img-container #myimg2 {
+        width: 700px;
+        height: 450px;
+        margin-top: 2rem;
+        margin-right: 40px;
+    }
+}
